@@ -85,6 +85,9 @@ spec:
   extraVolumes:
   - configMap:
       name: oidc-auth-tri-hack-2
+    name: oidc-auth 
+  - configMap:
+      name: oidc-auth-tri-hack-2cp
     name: oidc-auth
   hcpClass: default
   hostname: tri-hack-2cp.default-service.k8s.byo-upg-3.app.dev-pcd.platform9.com
