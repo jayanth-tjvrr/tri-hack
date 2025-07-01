@@ -86,6 +86,9 @@ spec:
   - configMap:
       name: oidc-auth-tri-hack-1
     name: oidc-auth
+  - configMap:
+      name: oidc-auth-tri-hack-1cp
+    name: oidc-auth
   hcpClass: default
   hostname: tri-hack-1cp.default-service.k8s.byo-upg-3.app.dev-pcd.platform9.com
   kubelet:
